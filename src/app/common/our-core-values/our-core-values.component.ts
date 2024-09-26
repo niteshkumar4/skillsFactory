@@ -11,23 +11,25 @@ import { OurStoryComponent } from '../our-story/our-story.component';
 import { OurMissionComponent } from '../our-mission/our-mission.component';
 import { RouterLink } from '@angular/router';
 import { OurValuesMissionsComponent } from '../our-values-missions/our-values-missions.component';
+import { FeedbackStyleOurCoreComponent } from "../feedback-style-our-core/feedback-style-our-core.component";
 
 @Component({
     selector: 'app-our-core-values',
     standalone: true,
     imports: [
-        HeaderStyleTwoComponent,
-        BecomeInstructorPartnerComponent,
-        FeedbackStyleTwoComponent,
-        PartnerStyleOneComponent,
-        InstructorsStyleTwoComponent,
-        OurValuesComponent,
-        FunfactsComponent,
-        OurStoryComponent,
-        OurMissionComponent,
-        RouterLink,
-        OurValuesMissionsComponent,
-    ],
+    HeaderStyleTwoComponent,
+    BecomeInstructorPartnerComponent,
+    FeedbackStyleTwoComponent,
+    PartnerStyleOneComponent,
+    InstructorsStyleTwoComponent,
+    OurValuesComponent,
+    FunfactsComponent,
+    OurStoryComponent,
+    OurMissionComponent,
+    RouterLink,
+    OurValuesMissionsComponent,
+    FeedbackStyleOurCoreComponent
+],
     templateUrl: './our-core-values.component.html',
     styleUrl: './our-core-values.component.scss',
 })

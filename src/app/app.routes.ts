@@ -67,6 +67,7 @@ import { OurMissionComponent } from './common/our-mission/our-mission.component'
 import { OurMissionsComponent } from './common/our-missions/our-missions.component';
 import { OurCoreValuesComponent } from './common/our-core-values/our-core-values.component';
 import { OurValuesMissionsComponent } from './common/our-values-missions/our-values-missions.component';
+import { FeedbackStyleOurCoreComponent } from './common/feedback-style-our-core/feedback-style-our-core.component';
 
 export const routes: Routes = [
     { path: '', component: OnlineEducationPortalComponent },
@@ -103,6 +104,7 @@ export const routes: Routes = [
     { path: 'our-missions', component: OurMissionsComponent },
     { path: 'our-core-values', component: OurCoreValuesComponent },
     {path:'our-values-missions',component: OurValuesMissionsComponent},
+    {path :'feedback-style-our-core',component:FeedbackStyleOurCoreComponent},
     { path: 'about-style-2', component: AboutPageTwoComponent },
     { path: 'header-style-zero', component: HeaderStyleZeroComponent },
     { path: 'instructor-1', component: InstructorsPageOneComponent },
