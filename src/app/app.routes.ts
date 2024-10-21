@@ -68,6 +68,8 @@ import { OurMissionsComponent } from './common/our-missions/our-missions.compone
 import { OurCoreValuesComponent } from './common/our-core-values/our-core-values.component';
 import { OurValuesMissionsComponent } from './common/our-values-missions/our-values-missions.component';
 import { FeedbackStyleOurCoreComponent } from './common/feedback-style-our-core/feedback-style-our-core.component';
+import { CommunityGroupsForumsComponent } from './pages/community-groups-forums/community-groups-forums.component';
+import { SingleEvent2Component } from './pages/single-event2/single-event2.component';
 
 export const routes: Routes = [
     { path: '', component: OnlineEducationPortalComponent },
@@ -113,6 +115,9 @@ export const routes: Routes = [
     { path: 'single-instructor', component: InstructorsDetailsPageComponent },
     { path: 'gallery', component: GalleryPageComponent },
     { path: 'events', component: EventsPageComponent },
+    { path: 'community-groups-forums', component: CommunityGroupsForumsComponent },
+    { path: 'single-event2', component: SingleEvent2Component },
+
     { path: 'single-event', component: EventsDetailsPageComponent },
     { path: 'pricing', component: PricingPageComponent },
     { path: 'feedback', component: FeedbackPageComponent },

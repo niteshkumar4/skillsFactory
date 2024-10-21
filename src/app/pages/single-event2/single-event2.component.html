@@ -1,0 +1,33 @@
+<app-header-style-two />
+
+<div
+    class="page-title-area"
+    style="background-image: url(images/page-title/page-title1.jpg)"
+>
+</div>
+<div
+    class="events-details-area ptb-100"
+    [class.dark-events-details-area]="themeService.isDark()"
+>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="events-details-header">
+                    <a
+                        routerLink="/community-groups-forums"
+                        class="back-all-events"
+                        ><i class="bx bx-chevrons-left"></i> Back To All
+                        Events</a
+                    >
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="events-details">
+                    <div class="events-details-image">
+                        <img src="images/events/events1.jpg" alt="image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
